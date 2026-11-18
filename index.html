@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Chat Ia</title>
+</head>
+
+<body>
+    <div class="vh-100 d-flex flex-column">
+        <header>
+            <nav>
+                <h1 class="titulo">CHAT IA</h1>
+            </nav>
+        </header>
+
+        <main id="principal" class="flex-grow-1 d-flex">
+
+            <aside class="sidebar col-lg-2 d-flex flex-column">
+                <div id="input-key" >
+                    <label for="api-key" class="sidebar-label form-label">Chave da API:</label>
+                    <input type="password" id="api-key" class="campo-api form-control form-control-sm" placeholder="Cole sua API Key aqui" required>
+                    <button id="btnKey"  type="button" class=" btn btn-primary ">Adicionar</button>
+                </div>
+
+    
+                <button id="btnNovoChat"  type="button" class=" btn btn-primary ">Novo chat</button>
+                <h2 class="sidebar-titulo h3">Conversas</h2>
+            </aside>
+
+            <section id="secao" class="flex-grow-1 d-flex flex-column h-100">
+                <div id="conversa" class="mensagens flex-grow-1 d-flex flex-column">
+                    <div class="msg-bemvindo">Olá, Como posso ajudar?</div>
+                </div>
+
+                <form id="formulario" class="formulario d-flex">
+                    <textarea id="input-usuario" class="chat-textarea form-control" placeholder="Digite sua mensagem..." rows="1" required></textarea>
+                    <button type="submit" id="btn-enviar" class="botao-enviar btn btn-primary">Enviar</button>
+                </form>
+
+                <p id="texto-atencao">Chat é uma IA e pode cometer erros. Confira sempre as respostas.</p>
+            </section>
+        </main>
+
+        <footer></footer>
+    </div>
+</body>
+
+</html>

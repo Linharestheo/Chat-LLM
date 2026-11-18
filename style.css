@@ -1,0 +1,145 @@
+/* ===== Topo ===== */
+.titulo {
+    background-color: #1F1F1F;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding: 16px;
+    margin-bottom: 0;
+}
+
+/* ===== Barra lateral ===== */
+#principal{
+    background: #0F0F0F;
+    min-height: 0
+}
+
+.sidebar {
+    background-color: #1F1F1F;
+    color: #fff;
+    padding: 16px;
+    gap: 16px;
+}
+
+.sidebar-label {
+    font-weight: 600;
+}
+
+.sidebar-titulo {
+    text-align: center;
+}
+
+.campo-api,
+.campo-api:focus {
+    background-color: #212529;
+    color: #fff;
+    border-color: #6c757d;
+}
+
+#btnKey{
+    margin-top: 3%;
+    width: 100%;;
+}
+
+/* ===== Área do chat ===== */
+#secao{
+    min-width: 0;
+}
+
+.mensagens {
+    padding: 16px;
+    gap: 16px;
+    overflow: auto;
+}
+
+.formulario {
+    padding: 16px;
+    gap: 8px;
+    width: 50%;
+    margin-inline: auto;
+}
+
+#input-usuario{
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.chat-textarea {
+    resize: none;
+    padding: 2%;
+}
+
+.botao-enviar {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#texto-atencao{
+    color: #ababab;
+    text-align: center;
+    margin-bottom:3%;
+}
+
+/* ===== Mensagens enviadas ===== */
+
+#chat-mensagem{
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario{
+    background: #1F1F1F;
+    color: white;
+    align-self: flex-end;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 50%;
+    overflow-wrap: break-word;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.assistente{
+    background: #1F1F1F;
+    color: white;
+    align-self: flex-start;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 50%;
+    overflow-wrap: break-word;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.erro-api{
+    background: #f34d4d;
+    color: white;
+    align-self: flex-start;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 50%;
+    overflow-wrap: break-word;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.aprova-api{
+    background: #037603;
+    color: white;
+    align-self: flex-start;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 50%;
+    overflow-wrap: break-word;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.msg-bemvindo{
+    color: white;
+    font-size: 60px;
+    display: flex;
+    margin: auto;
+}
+
+
