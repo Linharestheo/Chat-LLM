@@ -1,11 +1,3 @@
-# Chat com LLM
-
-Breve descrição do projeto em 1 ou 2 frases: o que ele faz e para quem.
-
-## Integrantes
-
-- Theo Linhares Mariano
-
 ## API utilizada
 
 - **API:** Groq 
