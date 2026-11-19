@@ -28,7 +28,7 @@ O **Chat com LLM** é uma aplicação web simples e leve que permite ao usuário
 <p align="center"><img src="docs/screenshot.png" alt="Tela do Chat com LLM" width="700"></p>
 -->
 
-> 🔗 **Demonstração:** `https://linharestheo.github.io/<nome-do-repositorio>/`
+> 🔗 **Demonstração:** `https://linharestheo.github.io/Chat-LLM/`
 
 ---
 
