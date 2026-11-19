@@ -110,6 +110,5 @@ Digite a mensagem e envie pelo botão ou pela tecla `Enter`.
 
 ---
 
-## 👥 Integrantes
-
+## 👥 Autor
 - **Theo Linhares Mariano** — [@Linharestheo](https://github.com/Linharestheo)
